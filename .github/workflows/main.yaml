@@ -11,9 +11,9 @@ jobs:
       - uses: actions/checkout@v3
       - run: |
           x=1
-          while [ $x -le 120 ]
+          while [ $x -le 20 ]
           do
-            echo -n "PR1: $x "
+            echo -n "PR2 $x "
             date            
             x=$(( $x + 1 ))
             sleep 1
